@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
     private val viewModel: JokeViewModel by inject()
     private val connectionManager: ConnectionManager by inject()
     private lateinit var jokesAdapter: JokesListAdapter
-    private val TIMER = 5000L
+    private val TIMER = 60000L
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
